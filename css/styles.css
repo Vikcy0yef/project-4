@@ -97,7 +97,7 @@ body {
   }
   .container {
     margin: 0;
-    margin-left: 32px;
+    padding: 32px;
   }
   .product-card {
     width: 600px;
@@ -111,7 +111,7 @@ body {
 
   .product-category {
     margin-bottom: 20px;
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
   .product-title {
     width: 236px;
