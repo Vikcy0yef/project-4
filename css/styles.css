@@ -27,7 +27,7 @@ body {
   width: 343px;
 }
 .container {
-  margin: 24px;
+  padding: 24px;
 }
 .product-category {
   font-family: "Montserrat", sans-serif;
