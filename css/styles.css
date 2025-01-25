@@ -92,8 +92,8 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
-    width: 100%; /* Забезпечує, що body заповнює всю ширину */
-    height: 100vh; /* Робить body висотою на весь екран */
+    width: 100%;
+    height: 100vh;
   }
   .container {
     margin: 0;
