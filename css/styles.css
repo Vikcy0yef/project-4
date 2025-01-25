@@ -1,0 +1,139 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  /* width: 375px; */
+  background-color: #f2eae2;
+  margin: 0;
+}
+.product-card {
+  width: 343px;
+  margin: 28px 16px;
+  background-color: #ffff;
+}
+
+.product-image {
+  width: 343px;
+}
+.container {
+  margin: 24px;
+}
+.product-category {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.42em;
+  color: #6c7289;
+  margin-bottom: 12px;
+}
+.product-title {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #1c232b;
+  margin-bottom: 16px;
+}
+.product-description {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.64286;
+  color: #6c7289;
+  margin-bottom: 24px;
+}
+.price-wroper {
+  display: flex;
+  margin-bottom: 24px;
+}
+.product-price-current {
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: #3d8168;
+  margin-right: 19px;
+}
+.product-price-original {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.76923;
+  text-decoration: line-through;
+  color: #6c7289;
+  padding-top: 5px;
+}
+.product-add-to-cart {
+  border-radius: 8px;
+  width: 295px;
+  height: 48px;
+  background: #3d8168;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+@media screen and (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 100%; /* Забезпечує, що body заповнює всю ширину */
+    height: 100vh; /* Робить body висотою на весь екран */
+  }
+  .container {
+    margin: 0;
+    margin-left: 32px;
+  }
+  .product-card {
+    width: 600px;
+    height: 450px;
+    display: flex;
+  }
+  .product-image {
+    width: 300px;
+    height: 450px;
+  }
+
+  .product-category {
+    margin-bottom: 20px;
+    margin-top: 32px;
+  }
+  .product-title {
+    width: 236px;
+    margin-bottom: 24px;
+  }
+  .product-description {
+    width: 237px;
+    margin-bottom: 29px;
+  }
+  .price-wroper {
+    height: 32px;
+  }
+  .product-price-current {
+    margin-bottom: 30px;
+    height: 32px;
+  }
+  .product-add-to-cart {
+    width: 236px;
+    height: 48px;
+    margin-bottom: 32px;
+  }
+  .product-add-to-cart:hover {
+    background: #1a4032;
+  }
+}
